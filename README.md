@@ -5,7 +5,6 @@ A simple command-line chat application built with Node.js and Socket.io.
 ## Features
 
 -   Real-time communication between multiple CLI instances
--   User-friendly interface using readline
 -   Differentiates between user messages and messages from other users
 
 ## Installation
@@ -13,19 +12,19 @@ A simple command-line chat application built with Node.js and Socket.io.
 1. Clone the repository:
 
     ```
-    git clone https://github.com/your-username/cli-chat-app.git
+    git clone https://github.com/your-username/cli-chat.git
     ```
 
 2. Navigate to the project directory:
 
     ```
-    cd cli-chat-app
+    cd cli-chat
     ```
 
 3. Install dependencies:
 
     ```
-    npm install
+    bun install
     ```
 
 ## Usage
@@ -33,13 +32,13 @@ A simple command-line chat application built with Node.js and Socket.io.
 1. Start the server:
 
     ```
-    node server.js
+    bun start
     ```
 
 2. Start a client instance:
 
     ```
-    node index.js
+    bun start
     ```
 
 3. Enter your username when prompted.
